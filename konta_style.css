@@ -1,0 +1,165 @@
+.index_main{
+    margin: 30px;
+    width: 100%;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body{
+    
+  }
+
+a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-right: 150px;
+    background-color: white;
+    
+}
+nav a{
+    color: black;
+    margin-left: 100px;
+}
+nav img{
+    object-fit: cover;
+}
+section{
+    margin-left: 50px;
+}
+.section_1{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.section_1 p{
+    font-size: 1.2em;
+   
+} 
+.section_1 h1{
+    font-size: 3em;
+}
+
+.section_1 img{
+    margin-left: 70px;
+}
+.section_1 a{
+    background-color: #F15A24;
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    color:white;
+}
+.section_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section_2 img{
+    object-fit: cover;  
+    margin-bottom: 0%;
+}
+.section_2 div{
+    
+    margin: auto;
+}
+.section_2 p{
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+.section_3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: right;
+}
+.section_3 div{
+  width: 30%;
+}
+.contenu_2{
+    background-color: white;
+}
+.contenu_2 h4{
+    margin-top: 0%;
+}
+.section_4{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.section_4 h1{ 
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 2em;
+}
+.section_4 p{
+    margin-bottom: 0%;
+    margin-top: 20px;
+}
+.section_4 img{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.section_5{
+    position: relative;
+    margin: 0%;
+}
+.section_5 img{
+    object-fit: cover;
+    margin-bottom: 80px;
+    
+}
+.absolute_text{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    text-align: center;
+    color: white;
+}
+.absolute_text h1{
+    font-size: 2.6em;
+}
+.section_5 a{
+    background-color: #F15A24;
+    border-radius: 7px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    color: white;
+}
+.footer_div{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer_div a,
+.footer_div img{
+    margin-left: 30px;
+    font-size: 13px;
+    
+}
+
+
